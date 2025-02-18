@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的家族</title>
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #0066cc;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 5px;
+    }
+    .family-member {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .family-member:last-child {
+      border-bottom: none;
+    }
+    .member-name {
+      font-size: 1.2em;
+      margin: 0;
+    }
+    .member-info {
+      margin: 5px 0 0 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>我的家族</h1>
+  </header>
+  <div class="container">
+    <section>
+      <h2>家族简介</h2>
+      <p>这里是对我们家族的简介。我们的家族历史悠久，充满温情与故事。每一代人都传承着独特的精神和价值观，让家族始终保持活力与团结。</p>
+    </section>
+
+    <section>
+      <h2>家族成员</h2>
+      <div class="family-member">
+        <p class="member-name">父亲：张三</p>
+        <p class="member-info">职业：工程师，热爱科技，关注家庭。</p>
+      </div>
+      <div class="family-member">
+        <p class="member-name">母亲：李四</p>
+        <p class="member-info">职业：教师，温柔贤惠，是家庭的灵魂人物。</p>
+      </div>
+      <div class="family-member">
+        <p class="member-name">我：王五</p>
+        <p class="member-info">身份：学生，热爱学习，希望将家族的优良传统发扬光大。</p>
+      </div>
+      <!-- 可根据需要添加更多成员 -->
+    </section>
+  </div>
+</body>
+</html>
